@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Нововведения в документооборот</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #667eea;
+            border-left: 4px solid #667eea;
+            padding-left: 20px;
+            margin-top: 0;
+        }
+        h2 {
+            color: #764ba2;
+            margin-top: 30px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        .important {
+            background: #fff3e0;
+            border-left: 4px solid #ff8c00;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        .tip {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        .code {
+            background: #f0f0f0;
+            padding: 10px 15px;
+            border-radius: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            margin: 15px 0;
+        }
+        ul, ol {
+            line-height: 1.8;
+            padding-left: 20px;
+        }
+        li {
+            margin: 10px 0;
+        }
+        hr {
+            margin: 30px 0;
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, #667eea, #764ba2);
+        }
+        .footer {
+            color: #666;
+            text-align: center;
+            font-size: 14px;
+            margin-top: 30px;
+        }
+        .badge {
+            background: #667eea;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 20px;
+            font-size: 12px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <h1>📋 Перечень нововведений</h1>
+    <p style="color: #666; margin-bottom: 30px;">Для корректировки ЛНА и СЭД</p>
+
+    <!-- 1. QR-код -->
+    <h2>1. QR-код <span class="badge">реквизит 31</span></h2>
+    <ul>
+        <li>Вносится в <strong>правый верхний угол документа</strong></li>
+        <li>Содержит: регистрационный номер, дату, ссылку на файл ЭП, ID маршрута</li>
+        <li>Требует доработки СЭД (генерация и проверка)</li>
+    </ul>
+
+    <!-- 2. Уточнение реквизитов -->
+    <h2>2. Уточнение реквизитов 05–07</h2>
+    <ul>
+        <li>Из всех шаблонов убрать слово <strong>«автор документа»</strong></li>
+        <li>Скорректировать инструкцию по делопроизводству</li>
+    </ul>
+
+    <!-- 3. Визуализация ЭП -->
+    <h2>3. Визуализация ЭП</h2>
+    <ul>
+        <li>Унифицированный значок (рекомендуемый образец – <strong>зелёная галочка в щите</strong>)</li>
+        <li>Подпись <strong>«Подписано ЭП»</strong> и гиперссылка на сертификат в СЭД</li>
+    </ul>
+
+    <div class="important">
+        ⚠️  <strong>Важно!</strong> Визуализация ЭП должна быть единообразной для всех документов организации.
+    </div>
+
+    <!-- 4. Новые поля -->
+    <h2>4. Новые поля</h2>
+    <ul>
+        <li>Левое поле – <strong>30 мм</strong></li>
+        <li>Правое поле – <strong>15 мм</strong></li>
+        <li>Проверить все шаблоны в СЭД и MS Word</li>
+    </ul>
+
+    <!-- 5. Шрифт и интервал -->
+    <h2>5. Шрифт и интервал</h2>
+    <ul>
+        <li>Основной шрифт: <strong>Times New Roman, №13, интервал 1,15</strong></li>
+        <li>Запрещены иные гарнитуры (кроме таблиц и служебных отметок)</li>
+    </ul>
+
+    <div class="tip">
+💡  <strong>Совет:</strong> Создайте шаблоны документов с уже настроенными полями и шрифтами, чтобы сотрудники не могли их изменить.
+    </div>
+
+    <!-- 6. Заголовки -->
+    <h2>6. Заголовки</h2>
+    <ul>
+        <li>Только по <strong>левому краю</strong></li>
+        <li>Запрет на переносы слов в заголовках</li>
+    </ul>
+
+    <hr>
+
+    <div class="footer">
+        ✨ Конспект по документационному обеспечению<br>
+        Нововведения для корректировки ЛНА и СЭД
+    </div>
+
+</div>
+</body>
+</html>
